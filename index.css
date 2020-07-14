@@ -1,0 +1,126 @@
+/* ------------------------------------------------------------------ */
+/* Header Inicio */
+    #inicio {
+        background-color: black;
+        color: rgb(214, 214, 214);
+    }
+    @font-face {
+        font-family: Anisha;
+        src: url(anisha.ttf);
+    }
+    .assinatura {
+        padding-top: 130px;
+        padding-left: 70px;
+        font-family: Anisha;
+        font-size: 60px;
+    }
+    .descricao {
+        font-family: Anisha;
+        font-size: 30px;
+        padding-left: 70px;
+    }
+    #descubra {
+        text-align: center;
+        padding-top: 95px;
+        color: rgba(243, 243, 243, 0.178);
+    }
+/* ------------------------------------------------------------------ */
+/* Parte Porgramação */
+    #programacao {
+        background: url(./imagem/fundoProgramacao.jpg);
+        color: rgb(214, 214, 214);
+    }
+    #programacao p {
+        text-align: center;
+        font-family: Anisha;
+        font-size: 30px;
+    }
+    .titleCommun {
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        font-family: Anisha;
+        font-size: 80px;
+    }
+    .titleCommun h1 {
+        padding-bottom: 70px;
+        font-family: Anisha;
+        font-size: 80px;
+    }
+    .boxText {
+        visibility: hidden;
+        background-color: rgba(255, 255, 255, 0.212);
+        width: 70%;
+        height: auto;
+        margin: auto;
+        padding: 10%;
+        box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.281);
+    }
+    .boxText li {
+        margin-top: 20px;
+    }
+    .binaryCode {
+        padding-top: 100px;
+        padding-bottom: 150px;
+        text-align: center;
+        color: rgba(202, 202, 202, 0)
+    }
+    .binaryCode:hover {
+        color: rgba(202, 202, 202, 0.082);
+        transition: 0.6s;
+    }
+/* ------------------------------------------------------------------ */
+/* Parte Piano */
+    .textoPiano {
+        color: black;
+        font-family: 'Roboto';
+        font-size: 18px;
+        text-align: center;
+    }
+    .imagemPiano {
+        box-shadow: 3px 3px 3px 3px rgba(133, 133, 133, 0.397);
+        border-radius: 6px 6px 6px 6px;
+        margin: 30px;
+    }
+/* ------------------------------------------------------------------ */
+/* Redes Sociais */
+    .botaoLado {
+        top: 40%;
+        position: fixed;
+    }
+    .zoomButton:hover {
+        transition: 0.5s;
+        transform: scale(1.2);
+    }
+    .propButton {
+        margin-top: 10px;
+    }
+
+/* ------------------------------------------------------------------ */
+/* Botao Voltar ao Inicio */
+    #backTop:hover {
+        background-color: rgb(185, 185, 185);
+        transition: 0.6s;
+    }
+
+    #backTop {
+        color: rgb(68, 68, 68);
+        background-color: rgb(197, 197, 197);
+        border-radius: 8px;
+        position: fixed;
+        display: none;
+        padding: 8px;
+        font-size: 13px;
+        font-weight: 650;
+        z-index: 10;
+        top: 90%;
+        right: 04%;
+        text-decoration: none;
+        line-height: 13px;
+    }
+
+/* ------------------------------------------------------------------ */
+
+li {
+    list-style-type: none;
+}
