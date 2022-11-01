@@ -1,5 +1,8 @@
 # THE PROJECT IS CURRENTLY STOPPED
 
+## 😂 Here is a random joke that'll make you laugh!
+![Jokes Card](https://readme-jokes.vercel.app/api)
+
 # EN/en 
 ## Portfolio to show my skills with front-end programming
 
